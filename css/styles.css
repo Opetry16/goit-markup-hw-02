@@ -43,6 +43,11 @@ body {
 ul {
     list-style: none;
 }
+
+a{
+    text-decoration: none;
+}
+
 .nav-link {
     font-family: var(--font-family);
     font-weight: 500;
@@ -50,22 +55,29 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    text-decoration: none;
 }
 
 
-/* Active state styles */
+.contact-number,
+.contact-link {
+    font-style: normal;
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .nav-links a:hover,
 .nav-links a:focus,
 .contact-info a:hover,
 .contact-info a:focus {
     color: var(--ocean);
+    
 }
 
-.contact-link {
-    text-decoration: none;
-    font-style: normal;
-}
+
+
 .services-title {
     font-size: 56px;
     line-height: 1.07143;
