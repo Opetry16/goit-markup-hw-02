@@ -24,15 +24,6 @@ body {
     color: var(--navy-blue);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--second-family);
-}
-
 .logo-link {
     font-family: var(--second-family);
     font-weight: 800;
@@ -49,15 +40,19 @@ h6 {
     color: var(--navy-blue);
 }
 
-.nav-links,
-.contact-info {
+ul {
+    list-style: none;
+}
+.nav-link {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    text-decoration: none;
 }
+
 
 /* Active state styles */
 .nav-links a:hover,
@@ -67,15 +62,16 @@ h6 {
     color: var(--ocean);
 }
 
+.contact-link {
+    text-decoration: none;
+    font-style: normal;
+}
 .services-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    width: 1440px;
-    height: 600px;
     background: #2e2f42;
 }
 
@@ -110,8 +106,6 @@ h6 {
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
 }
 
 .filter-button:hover,
@@ -169,8 +163,6 @@ h6 {
 
 /* Footer Styles */
 .footer {
-    width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
 }
 
